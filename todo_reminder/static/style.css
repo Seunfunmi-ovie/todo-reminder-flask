@@ -1,0 +1,36 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: #fff0f5;
+    color: #5b3a52;
+
+}
+
+.task-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    padding: 6px 12px;
+    border-radius: 16px;
+    background-color: #fde2ea;
+    color:#e8739d;
+
+}
+
+.main-container{
+    background-color: #5b3a52;
+    width: auto;
+    height: 600px;
+    border-radius: 20px;
+
+
+}
+
+.task-row button{
+background-color: white;
+color: #e8739b;
+border:none;
+padding: 6px 12px;
+border-radius: 999px;
+cursor: pointer;
+}
