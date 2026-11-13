@@ -4,6 +4,14 @@ body{
     color: #5b3a52;
 
 }
+.style-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 6px 12px;
+
+}
 
 .task-row{
     display: flex;
@@ -17,14 +25,6 @@ body{
 
 }
 
-.main-container{
-    background-color: #5b3a52;
-    width: auto;
-    height: 600px;
-    border-radius: 20px;
-
-
-}
 
 .task-row button{
 background-color: white;
@@ -33,4 +33,24 @@ border:none;
 padding: 6px 12px;
 border-radius: 999px;
 cursor: pointer;
+}
+
+.add-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    padding: 6px 12px;
+    border-radius: 16px;
+    background-color: #fde2ea;
+    color: #e8739b;
+
+}
+.add-row button{
+    background-color: white;
+    color: #e8739b;
+    border:none;
+    padding: 6px 12px;
+    border-radius: 999px;
+    cursor: pointer;
 }

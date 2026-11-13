@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <div class="main-container">
+        <div class="style-body">
         <h1>My Tasks</h1>
         <ol>
             {% for task in tasks %}
@@ -21,11 +21,14 @@
             </li>
             {% endfor %}
         </ol>
+        <div class="add-row">
         <form method="post">
             <input type = "text" name = "title">
             <button type="submit">add</button>
         </form>
-    </div>
+
+        </div>
+        </div>
 
 </body>
 </html>
